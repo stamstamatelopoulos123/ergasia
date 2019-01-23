@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Κράτηση</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body style="background:lightblue">
+    <a class="menu" href="arxiki.html">Αρχική</a>
+    <a class="menu" href="menu.html">Μενού</a>
+    <a class="menu" href="kratisi.html">Κράτηση</a>
+    <a class="menu" href="about.html"> Πώς να έρθετε - Επικοινωνία</a>
+    <a  href="#"><img class="menubtn"src="img/1.png"></a>
+    <a href="#"><img class="menubtn" src="img/2.png"></a>
+    <a  href="#"><img class="menubtn" src="img/3.png"></a>
+    <hr>
+
+
+    <h1>Κράτηση</h1>
+    <h2>Πληροφορίες κράτησης</h2>
+    <p>
+        Για να κρατησετε τραπεζι πρεπει να καλεσετε στο τηλεφωνο
+    </p>
+
+    <hr>
+    <h2>Φόρμα Επικοινωνιας</h2>
+    
+    <div class="formwrap">
+        <form action="/action_page.php">
+            Όνομα<br>
+            <input type="text" required>
+            <br>
+            Επίθετο<br>
+            <input type="text" required>
+            <br>
+            Ημερομηνια<br>
+            <input type="date" required>
+            <br>
+            <br>
+            <label><b>Επιλογή Τραπεζιού</b></label>
+            <br>
+            <input type="radio"  checked> Τραπεζι VIP <br>
+            <input type="radio" > Τραπεζι Μέσα <br>
+            <input type="radio" > Τραπεζι Μπαλκόνι <br>
+            <br>
+            Αριθμός ατόμων<br>
+            <input type="number" required placeholder="1">
+            
+            <br>
+            <br>
+            <input type="submit" value="Υποβολη">
+            <input type="reset" value="Επαναφορα">
+          </form>
+    </div>
+
+    <h2>Μερικές εικόνες από το εστιατόριο μας</h2>
+    
+    <hr>
+    <img style="width:300px; cursor: pointer; height: 300px;"src='img/1.jpg'/>
+    <img style="width:300px; cursor: pointer; height: 300px;"src='img/2.jpg'/>
+    <img style="width:300px; cursor: pointer; height: 300px;"src='img/3.jpg'/>
+    <img style="width:300px; cursor: pointer; height: 300px;"src='img/4.jpg'/>
+    <img style="width:300px; cursor: pointer; height: 300px;"src='img/5.jpg'/>
+    <hr>
+
+    <style>  body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        background: lightblue;
+        text-align: center;
+      }
+      a.menu { margin: 6px;}
+      .menubtn {
+        width:30px;
+        margin:0px;
+      }
+      .formwrap {
+          text-align: left;
+          width: 400px;
+          margin: 20px auto;
+      }
+      .formwrap form {
+          color: white;
+          background: #d62c2c;
+          text-align: left;
+          padding: 20px;
+      }
+      .formwrap form input {
+        width: 360px;
+        height: 30px;
+        margin-left: -6px;
+      }
+      
+      form input[type="radio"] {
+          margin: 0;
+          height: auto;
+          width: auto;
+      }
+      form input[type="submit"], form input[type="reset"] {
+          display: inline-block;
+        background: black;
+        margin:10px 16px 10px 0;
+        width:160px;
+        color: inherit;
+        border: solid 1px black;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+    }
+    </style>
+
+     
+</body>
+</html>

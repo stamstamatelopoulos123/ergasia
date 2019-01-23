@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <a class="menu" href="arxiki.html">Αρχική</a>
+    <a class="menu" href="menu.html">Μενού</a>
+    <a class="menu" href="kratisi.html">Κράτηση</a>
+    <a class="menu" href="about.html"> Πώς να έρθετε - Επικοινωνία</a>
+    <a  href="#"><img class="menubtn"src="img/1.png"></a>
+    <a href="#"><img class="menubtn" src="img/2.png"></a>
+    <a  href="#"><img class="menubtn" src="img/3.png"></a>
+    
+
+
+    <hr>
+    <h2>Καλωσόρισμα - Κείμενο</h2>
+    <p>
+      Χώρος βιομηχανικού ύφους σε <b>κεντρικό σημείο της πόλης. </b>
+      <i>Μοντέρνας αντίληψης, με ανοιχτή κουζίνα.</i> <br>
+      <span style="font-size:24px">Σύγχρονος σχεδιασμός,</span> <u>μοντέρνα αντίληψη</u>, με ιδιαίτερη έμφαση στο φωτισμό.
+      <br>
+      <br>
+      <img style="width:500px;" src="img/back.jpg" alt="">
+    </p>
+    <hr>
+    <h2>Πίνακας</h2>
+
+    <table style="text-align:center; width:900px; margin: 0 auto;">
+        <tr>
+          <th>Προιόν</th>
+          <th>Τιμή</th>
+          <th>Σερβίρεται με γλύκισμα</th>
+          <th>Σερβίρεται με αναψυκτικό</th>
+        </tr>
+        <tr>
+          <td>Μακαρόνια με κιμά</td>
+          <td>5$</td>
+          <td>ΝΑΙ</td>
+          <td>ΝΑΙ</td>
+        </tr>
+        <tr>
+          <td>Παστίτσιο Μερίδα</td>
+          <td>7$</td>
+          <td>ΝΑΙ</td>
+          <td>ΟΧΙ</td>
+        </tr>
+        <tr>
+          <td>Φακές</td>
+          <td>3.4$</td>
+          <td>ΟΧΙ</td>
+          <td>ΟΧΙ</td>
+        </tr>
+      </table>
+
+      <hr>  
+      <br>
+      <h2>iFrames</h2>
+      <ul style="width:100px; margin: 0 auto;"">
+          <li style="cursor: pointer; color: blue;">Εικόνα 1 <iframe style="display:none;" name='iframe style="display:none;"1' src='img/1.jpg' width="400" height='300'></iframe style="display:none;"></li>
+          <li style="cursor: pointer; color: blue">Εικόνα 2 <iframe style="display:none;" name='iframe style="display:none;"2' src='img/2.jpg' width="400" height='300'></iframe style="display:none;"></li>
+          <li style="cursor: pointer; color: blue">Εικόνα 3 <iframe style="display:none;" name='iframe style="display:none;"3' src='img/3.jpg' width="400" height='300'></iframe style="display:none;"></li>
+          <li style="cursor: pointer; color: blue">Εικόνα 4<iframe style="display:none;" name='iframe style="display:none;"4' src='img/4.jpg' width="400" height='300'></iframe style="display:none;"></li>
+          <li style="cursor: pointer; color: blue">Εικόνα 5 <iframe style="display:none;" name='iframe style="display:none;"5' src='img/5.jpg' width="400" height='300'></iframe style="display:none;"></li>
+      </ul>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('li').click(function() {
+      $(this).find("iframe").toggle();
+    });
+});
+</script>
+<style>
+  body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background: lightblue;
+    text-align: center;
+  }
+  a.menu { margin: 6px;}
+  .menubtn {
+    width:30px;
+    margin:0px;
+  }
+</style>
+</body>
+
+
+</html>
